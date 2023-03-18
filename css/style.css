@@ -1,0 +1,50 @@
+body{
+    background-color: #0d0d0d;
+    overflow: hidden;
+    color: #f9f6f6 !important;
+}
+/* ******************load*********************** */
+.loading-page{
+    z-index: 10000;
+    display: flex;
+}
+/* ******************navbar*********************** */
+.side-navbar{
+    z-index: 100;
+}
+.navbar-tab{
+    background-color: #0D0D0D;
+}
+i{
+    cursor: pointer;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.logo{
+    width: 50px;
+}
+.inner-loading-page{
+    position: absolute;
+    z-index: 9;
+    background-color: #0D0D0D;
+    display: flex;
+}
+/* ******************meal*********************** */
+.meal-layer{
+    width: 100%;
+    height: 100%;
+    background-color: #f9f6f6ca;
+    top: 100%;
+    transition: .5s;
+}
+
+.meal:hover .meal-layer{
+    top: 0;
+}
+.alert{
+    width: fit-content;
+}
+ul{
+    list-style: none;
+}
